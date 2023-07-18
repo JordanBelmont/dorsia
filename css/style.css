@@ -164,8 +164,9 @@ table {
   width: 50vw;
   height: 100vh;
   position: fixed;
-  left: 0;
+  left: -50vw;
   background-color: #262626;
+  transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 .navbar-navigation-left .left-img {
   width: 50%;
@@ -190,8 +191,9 @@ table {
   width: 50vw;
   height: 100vh;
   position: fixed;
-  right: 0;
+  right: -50vw;
   background-color: #1f1d1d;
+  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
   display: flex;
   justify-content: center;
   align-items: center;
