@@ -207,6 +207,11 @@ table {
   padding-left: 50px;
 }
 
+.gallery .cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .main-name {
   font-family: "Bebas";
   font-size: 100px;
