@@ -39,3 +39,21 @@
    letter-spacing: 3px;
    @include abstracts.textStyle;
 }
+
+.main-heading {
+   font-family: abstracts.$font-nova;
+   font-size: 80px;
+   font-weight: 300;
+   color: abstracts.$color-primary;
+   margin: 40px 0;
+   text-align: center;
+}
+
+.sub-heading {
+   font-family: abstracts.$font-josefinSans;
+   font-size: 30px;
+   font-weight: 300;
+   color: abstracts.$color-secondary;
+   margin-bottom: 40px;
+   text-align: center;
+}

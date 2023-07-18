@@ -25,3 +25,14 @@ $font-nova: 'NovaQuinta';
    letter-spacing: 3px;
    text-transform: $transform;
 }
+
+// FONTS
+@font-face {
+   font-family: 'Bebas';
+   src: url(../fonts/Bebas-Regular.ttf);
+}
+
+@font-face {
+   font-family: 'NovaQuinta';
+   src: url(../fonts/NovaQuinta.otf);
+}
