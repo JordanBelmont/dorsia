@@ -1,1 +1,32 @@
 @use "abstracts";
+
+.main-name {
+   font-family: abstracts.$font-bebas;
+   font-size: 100px;
+   position: relative;
+   max-width: 500px;
+   margin: 0;
+   color: abstracts.$color-primary;
+
+   &:before {
+      content: " ";
+      display: block;
+      height: 2px;
+      width: 130px;
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      background: abstracts.$color-secondary;
+   }
+
+   &:after {
+      content: " ";
+      display: block;
+      height: 2px;
+      width: 130px;
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      background: abstracts.$color-secondary;
+   }
+}

@@ -160,4 +160,33 @@ table {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.main-name {
+  font-family: "Bebas";
+  font-size: 100px;
+  position: relative;
+  max-width: 500px;
+  margin: 0;
+  color: #d3ab55;
+}
+.main-name:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  background: #bbb;
+}
+.main-name:after {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  background: #bbb;
 }/*# sourceMappingURL=style.css.map */
