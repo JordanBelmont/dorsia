@@ -44,6 +44,26 @@
          position: fixed;
          right: 0;
          background-color: #1f1d1d;
+         @include abstracts.flexLayout;
+      }
+
+      .nav-list {
+         &-link {
+            font-family: abstracts.$font-nova;
+            font-size: 50px;
+            @include abstracts.textStyle(capitalize);
+            color: abstracts.$color-secondary;
+            text-decoration: none;
+            display: block;
+            margin: 60px;
+            text-align: center;
+            transition: all .5s;
+
+            &:hover {
+               color: abstracts.$color-primary;
+               letter-spacing: 4px;
+            }
+         }
       }
    }
 }
