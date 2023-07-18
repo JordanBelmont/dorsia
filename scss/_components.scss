@@ -77,3 +77,24 @@
       color: abstracts.$color-dark;
    }
 }
+
+.card {
+   width: 33.3333%;
+   height: 30vw;
+   position: relative;
+
+   &-overlay {
+      position: absolute;
+      top: 0;
+      left: -100%;
+      background-color: rgba(abstracts.$color-primary, .4);
+      color: abstracts.$color-white;
+      z-index: 1;
+      flex-direction: column;
+   }
+
+   &-img {
+      object-fit: cover;
+      opacity: .5;
+   }
+}
