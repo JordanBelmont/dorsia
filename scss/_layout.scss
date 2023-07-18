@@ -51,12 +51,12 @@
          &-link {
             font-family: abstracts.$font-nova;
             font-size: 50px;
-            @include abstracts.textStyle(capitalize);
             color: abstracts.$color-secondary;
             text-decoration: none;
             display: block;
             margin: 60px;
             text-align: center;
+            @include abstracts.textStyle(capitalize);
             transition: all .5s;
 
             &:hover {
