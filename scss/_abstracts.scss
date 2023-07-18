@@ -42,3 +42,9 @@ $font-nova: 'NovaQuinta';
    font-family: 'NovaQuinta';
    src: url(../fonts/NovaQuinta.otf);
 }
+
+// PLACEHOLDER SELECTOR
+%fullSpace {
+   width: 100%;
+   height: 100%;
+}
