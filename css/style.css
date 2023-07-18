@@ -189,4 +189,15 @@ table {
   top: 50%;
   right: 100%;
   background: #bbb;
+}
+
+.sub-name {
+  margin-top: 5px;
+  color: #bbb;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

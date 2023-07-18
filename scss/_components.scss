@@ -30,3 +30,12 @@
       background: abstracts.$color-secondary;
    }
 }
+
+.sub-name {
+   margin-top: 5px;
+   color: abstracts.$color-secondary;
+   font-family: abstracts.$font-josefinSans;
+   font-size: 30px;
+   letter-spacing: 3px;
+   @include abstracts.textStyle;
+}
