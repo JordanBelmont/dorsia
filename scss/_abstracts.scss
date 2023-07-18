@@ -26,6 +26,12 @@ $font-nova: 'NovaQuinta';
    text-transform: $transform;
 }
 
+@mixin flexLayout {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 // FONTS
 @font-face {
    font-family: 'Bebas';

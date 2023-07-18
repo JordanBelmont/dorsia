@@ -302,6 +302,9 @@ table {
   color: #fff;
   z-index: 1;
   flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-img {
   -o-object-fit: cover;

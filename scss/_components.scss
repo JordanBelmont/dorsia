@@ -91,6 +91,7 @@
       color: abstracts.$color-white;
       z-index: 1;
       flex-direction: column;
+      @include abstracts.flexLayout;
    }
 
    &-img {
