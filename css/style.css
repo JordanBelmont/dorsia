@@ -247,6 +247,11 @@ table {
   color: #d3ab55;
   letter-spacing: 4px;
 }
+@media (max-width: 500px) {
+  .navbar-navigation .nav-list-link {
+    font-size: 40px;
+  }
+}
 
 .checkbox:checked ~ .navbar-navigation .navbar-navigation-left {
   left: 0;
@@ -398,6 +403,12 @@ table {
   right: 5%;
   z-index: 2;
 }
+@media (max-width: 500px) {
+  .hamburger-menu {
+    top: 2%;
+    right: 45%;
+  }
+}
 .hamburger-menu .menu {
   display: flex;
   flex-direction: column;
@@ -431,6 +442,11 @@ table {
   left: 100%;
   background: #bbb;
 }
+@media (max-width: 500px) {
+  .main-name:before {
+    width: 40px;
+  }
+}
 .main-name:after {
   content: " ";
   display: block;
@@ -440,6 +456,11 @@ table {
   top: 50%;
   right: 100%;
   background: #bbb;
+}
+@media (max-width: 500px) {
+  .main-name:after {
+    width: 40px;
+  }
 }
 
 .sub-name {
@@ -499,6 +520,12 @@ table {
 @media (max-width: 700px) {
   .card {
     width: 50%;
+    height: 60vw;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    width: 100%;
     height: 60vw;
   }
 }

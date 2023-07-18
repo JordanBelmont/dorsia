@@ -92,6 +92,10 @@
                color: abstracts.$color-primary;
                letter-spacing: 4px;
             }
+
+            @media(max-width: 500px) {
+               font-size: 40px;
+            }
          }
       }
    }
