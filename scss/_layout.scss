@@ -17,3 +17,47 @@
       @include abstracts.centering(50%);
    }
 }
+
+.specials {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 50px;
+
+   .chef-special {
+      width: 75vh;
+      opacity: .7;
+      border: 2px solid abstracts.$color-primary;
+   }
+
+   h1 {
+      margin-top: 90px;
+   }
+
+   h3 {
+      margin-top: 30px;
+   }
+
+   .stars {
+      margin: 30px 0;
+   }
+
+   .star {
+      font-size: 15px;
+      color: abstracts.$color-primary;
+      margin-left: 10px;
+   }
+
+   .description {
+      font-family: abstracts.$font-josefinSans;
+      font-size: 20px;
+      font-style: italic;
+      color: abstracts.$color-secondary;
+      text-align: justify;
+      margin: 0 25%;
+
+      &::first-letter {
+         padding-left: 50px;
+      }
+   }
+}

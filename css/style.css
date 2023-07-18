@@ -170,6 +170,43 @@ table {
   transform: translate(-50%, -50%);
 }
 
+.specials {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.specials .chef-special {
+  width: 75vh;
+  opacity: 0.7;
+  border: 2px solid #d3ab55;
+}
+.specials h1 {
+  margin-top: 90px;
+}
+.specials h3 {
+  margin-top: 30px;
+}
+.specials .stars {
+  margin: 30px 0;
+}
+.specials .star {
+  font-size: 15px;
+  color: #d3ab55;
+  margin-left: 10px;
+}
+.specials .description {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #bbb;
+  text-align: justify;
+  margin: 0 25%;
+}
+.specials .description::first-letter {
+  padding-left: 50px;
+}
+
 .main-name {
   font-family: "Bebas";
   font-size: 100px;
