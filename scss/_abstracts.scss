@@ -11,3 +11,11 @@ $font-josefinSans: 'Josefin Sans', sans-serif;
 $font-nunito: 'Nunito', sans-serif;
 $font-bebas: 'Bebas';
 $font-nova: 'NovaQuinta';
+
+// MIXINS
+@mixin centering($topValue) {
+   position: absolute;
+   top: $topValue;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
