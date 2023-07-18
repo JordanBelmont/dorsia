@@ -15,6 +15,10 @@
          background-color: abstracts.$color-dark;
          transition: left .8s cubic-bezier(1, 0, 0, 1);
 
+         @media(max-width: 700px) {
+            display: none;
+         }
+
          .left-img {
             width: 50%;
             position: absolute;
@@ -65,6 +69,11 @@
          background-color: #1f1d1d;
          transition: right .8s cubic-bezier(1, 0, 0, 1);
          @include abstracts.flexLayout;
+
+         @media(max-width: 700px) {
+            width: 100vw;
+            right: -100vw;
+         }
       }
 
       .nav-list {
@@ -144,6 +153,10 @@
 
       @media(max-width: 1000px) {
          width: 55vh;
+      }
+
+      @media(max-width: 700px) {
+         width: 40vh;
       }
    }
 
