@@ -57,3 +57,23 @@
    margin-bottom: 40px;
    text-align: center;
 }
+
+.main-btn {
+   width: 170px;
+   height: 45px;
+   font-family: abstracts.$font-josefinSans;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: abstracts.$color-primary;
+   background-color: transparent;
+   border: 1px solid abstracts.$color-primary;
+   outline: none;
+   cursor: pointer;
+   transition: all .4s;
+
+   &:hover {
+      background-color: abstracts.$color-primary;
+      color: abstracts.$color-dark;
+   }
+}
