@@ -97,6 +97,7 @@
       z-index: 1;
       flex-direction: column;
       @include abstracts.flexLayout;
+      @extend %fullSpace;
       transition: left .7s;
 
       &-heading {
