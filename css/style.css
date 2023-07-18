@@ -217,6 +217,44 @@ table {
   flex-wrap: wrap;
 }
 
+.footer {
+  padding: 70px 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .social-media {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 50px 0 30px 0;
+}
+.footer .social-media-link {
+  text-decoration: none;
+  font-size: 50px;
+  color: #bbb;
+  transition: color 0.7s;
+}
+.footer .social-media-link:hover {
+  color: #d3ab55;
+}
+.footer-copyright-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+@media (max-width: 700px) {
+  .footer-copyright-paragraph {
+    width: 70%;
+    margin: auto;
+  }
+}
+
 .main-name {
   font-family: "Bebas";
   font-size: 100px;
