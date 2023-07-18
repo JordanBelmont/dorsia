@@ -82,6 +82,11 @@
    width: 33.3333%;
    height: 30vw;
    position: relative;
+   overflow: hidden;
+
+   &:hover .card-overlay {
+      left: 0;
+   }
 
    &-overlay {
       position: absolute;
@@ -92,10 +97,30 @@
       z-index: 1;
       flex-direction: column;
       @include abstracts.flexLayout;
-   }
+      transition: left .7s;
 
-   &-img {
-      object-fit: cover;
-      opacity: .5;
+      &-heading {
+         font-family: abstracts.$font-nova;
+         font-size: 70px;
+         font-weight: 300;
+         margin-bottom: 40px;
+         text-align: center;
+      }
+
+      &-btn {
+         width: 150px;
+         height: 40px;
+         color: abstracts.$color-primary;
+         background-color: abstracts.$color-white;
+         font-family: abstracts.$font-josefinSans;
+         font-size: 14px;
+         font-weight: bold;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         outline: none;
+         border: 1px solid abstracts.$color-primary;
+         border-radius: 30px;
+         cursor: pointer;
+      }
    }
 }

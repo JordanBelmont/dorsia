@@ -293,6 +293,10 @@ table {
   width: 33.3333%;
   height: 30vw;
   position: relative;
+  overflow: hidden;
+}
+.card:hover .card-overlay {
+  left: 0;
 }
 .card-overlay {
   position: absolute;
@@ -305,9 +309,27 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: left 0.7s;
 }
-.card-img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 0.5;
+.card-overlay-heading {
+  font-family: "NovaQuinta";
+  font-size: 70px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.card-overlay-btn {
+  width: 150px;
+  height: 40px;
+  color: #d3ab55;
+  background-color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid #d3ab55;
+  border-radius: 30px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
