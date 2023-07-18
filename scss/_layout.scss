@@ -26,16 +26,34 @@
          .left-img-1 {
             top: 15%;
             left: 15%;
+
+            @media(max-width: 1000px) {
+               width: 75%;
+               top: 25%;
+               left: 15%;
+            }
          }
 
          .left-img-2 {
             top: 35%;
             left: 25%;
+
+            @media(max-width: 1000px) {
+               width: 75%;
+               top: 45%;
+               left: 15%;
+            }
          }
 
          .left-img-3 {
             top: 55%;
             left: 35%;
+
+            @media(max-width: 1000px) {
+               width: 75%;
+               top: 65%;
+               left: 15%;
+            }
          }
       }
 
@@ -51,15 +69,15 @@
 
       .nav-list {
          &-link {
+            color: abstracts.$color-secondary;
             font-family: abstracts.$font-nova;
             font-size: 50px;
-            color: abstracts.$color-secondary;
             text-decoration: none;
             display: block;
             margin: 60px;
             text-align: center;
-            @include abstracts.textStyle(capitalize);
             transition: all .5s;
+            @include abstracts.textStyle(capitalize);
 
             &:hover {
                color: abstracts.$color-primary;
@@ -123,6 +141,10 @@
       width: 75vh;
       opacity: .7;
       border: 2px solid abstracts.$color-primary;
+
+      @media(max-width: 1000px) {
+         width: 55vh;
+      }
    }
 
    h1 {
@@ -138,21 +160,26 @@
    }
 
    .star {
-      font-size: 15px;
       color: abstracts.$color-primary;
+      font-size: 15px;
       margin-left: 10px;
    }
 
    .description {
+      color: abstracts.$color-secondary;
       font-family: abstracts.$font-josefinSans;
       font-size: 20px;
       font-style: italic;
-      color: abstracts.$color-secondary;
       text-align: justify;
       margin: 0 25%;
 
       &::first-letter {
          padding-left: 50px;
+      }
+
+      @media(max-width: 1000px) {
+         font-size: 18px;
+         margin: 0 15%;
       }
    }
 }
@@ -176,9 +203,9 @@
       margin: 50px 0 30px 0;
 
       &-link {
-         text-decoration: none;
-         font-size: 50px;
          color: abstracts.$color-secondary;
+         font-size: 50px;
+         text-decoration: none;
          transition: color .7s;
 
          &:hover {

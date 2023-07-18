@@ -27,12 +27,12 @@
 }
 
 .main-name {
+   color: abstracts.$color-primary;
    font-family: abstracts.$font-bebas;
    font-size: 100px;
    position: relative;
    max-width: 500px;
    margin: 0;
-   color: abstracts.$color-primary;
 
    &:before {
       content: " ";
@@ -87,12 +87,12 @@
 .main-btn {
    width: 170px;
    height: 45px;
+   color: abstracts.$color-primary;
+   background-color: transparent;
    font-family: abstracts.$font-josefinSans;
    font-size: 14px;
    text-transform: uppercase;
    letter-spacing: 1px;
-   color: abstracts.$color-primary;
-   background-color: transparent;
    border: 1px solid abstracts.$color-primary;
    outline: none;
    cursor: pointer;
